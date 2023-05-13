@@ -1,0 +1,119 @@
+/* //002333
+//159a9c
+b4bec9 */
+.rootPage {
+	background-image: linear-gradient(
+		to right top,
+		#b4bec9,
+		#98b4c6,
+		#75abbe,
+		#4da3b0,
+		#159a9c
+	);
+
+	text-align: center;
+	min-height: 100%;
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.loginPage {
+	width: fit-content;
+	margin-top: 18vh;
+	display: flex;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.loginHead {
+	font-size: 25px;
+	font-weight: 500;
+	color: #002333;
+}
+.leftside {
+	background-color: #002333;
+	color: #b4bec9;
+	padding: 20px;
+	text-align: center;
+	width: 70vh;
+	margin-right: 10rem;
+	background-color: #002333;
+	background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+.leftside img {
+	margin-top: 50px;
+	width: fit-content;
+	height: 200px;
+}
+.input-container {
+	width: 300px;
+	height: auto;
+	margin: auto;
+}
+.input {
+	width: 100%;
+	margin-top: 25px;
+	height: 50px;
+	padding: 10px 20px;
+	background-color: white;
+	align-items: center;
+	border-radius: 4px;
+}
+input {
+	background: transparent;
+	border: none;
+	outline: none;
+	width: 70%;
+	line-height: 30px;
+	font-size: 15px;
+	border-radius: 4px;
+}
+i {
+	opacity: 50%;
+}
+.login,.signup {
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	background-color: #002333;
+	color: #b4bec9;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.rightside {
+	width: 50%;
+	height: auto;
+}
+h2 {
+	text-align: center;
+	color: #002333;
+	font-size: 30px;
+}
+.welcome {
+	margin-top: 12vh;
+}
+
+.isValid{
+	font-size: 15px;
+	color: red;
+}
+
+@media screen and (max-width: 768px) {
+	.leftside {
+		display: none;
+	}
+	.rightside {
+		width: 100%;
+	}
+}

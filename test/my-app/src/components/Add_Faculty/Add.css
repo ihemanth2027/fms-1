@@ -1,0 +1,64 @@
+.formDiv {
+	width: 650px;
+	background-image: linear-gradient(
+		to right,
+		#b4bec9,
+		#98b4c6,
+		#75abbe,
+		#4da3b0,
+		#159a9c
+	);
+	color: #002333;
+	position: relative;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	border-radius: 5px;
+}
+
+.formItem {
+	margin: 5px;
+}
+.formRadioItem {
+	margin-left: 5px;
+}
+.nextBtn {
+	position: relative;
+	left: 68.5%;
+	margin: 20px;
+	background-color: #b4bec9;
+	color: #002333;
+}
+.submitBtn {
+	position: relative;
+	margin-left: 45%;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	/* margin: 20px; */
+	background-color: #b4bec9;
+	color: #002333;
+}
+img.formBg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	background-color: #002333;
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	/* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px; /* 50% */
+	}
+}
+/* //002333
+//159a9c
+b4bec9 */

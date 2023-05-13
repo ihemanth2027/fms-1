@@ -1,0 +1,57 @@
+.carouselImage {
+	width: 500px;
+	height: 400px;
+	margin: 20px auto 50px auto;
+	display: block;
+	border-radius: 5px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	filter: invert(1);
+}
+.carouselContainer{
+	margin-top: 30px;
+}
+.listItems {
+	display: flex;
+}
+#navbarTogglerDemo01 {
+	margin-top: 0;
+	background-color: #ced5dd;
+}
+
+.listItems a {
+	margin-right: 5rem;
+}
+
+#login {
+	position: absolute;
+	right: 1px;
+	margin-top: 1px;
+	
+	margin-right: 2.7rem;
+	text-align: center;
+	overflow: hidden;
+}
+#login:hover {
+	background-color: #507d8d;
+}
+#navbarSupportedContent {
+	background-color: #e2e4e6;
+	padding: 7px;
+}
+.homeInfo{
+	padding: 7px;
+	margin-top: 20px;
+	color: dimgray;
+}
+footer {
+	background-color: #002333;
+	color: #b4bec9;
+	padding: 10px;
+	text-align: center;
+}
+footer p {
+	margin: 0;
+	font-size: small;
+}

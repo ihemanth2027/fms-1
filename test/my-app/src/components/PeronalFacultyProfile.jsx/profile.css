@@ -1,0 +1,53 @@
+.facultyProfilePage {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	background-color: #b4bec9;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.facultyContainer {
+	margin: 30px 30% 30px 30%;
+	position: relative;
+	align-items: center;
+}
+.facultyImg {
+	width: 220px;
+	height: 220px;
+	border-radius: 130px;
+	margin: 40px 40px 0 40px;
+	padding: 20px;
+}
+.facultyInfoContainer {
+	background-color: aliceblue;
+    padding: 20px;
+}
+.facultyInfoContainer div {
+	padding: 8px;
+    font-size: 18px;
+}
+.facultyInfoContainer div label {
+    margin-right: 20px;
+}
+span{
+    margin-right: 20px;
+}
+.facultyImg,
+.facultyInfoContainer {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.imgContainer {
+	background-color: #002333;
+}
+.imgContainer h2 {
+	color: #b4bec9;
+	padding-bottom: 20px;
+	margin: 0;
+    font-size: 40px;
+}
+
+

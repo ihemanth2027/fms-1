@@ -1,0 +1,108 @@
+/* //002333
+//159a9c
+b4bec9 */
+.email {
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-all;
+}
+.header {
+	position: relative;
+	/* background-color: #558aa3; */
+	background-color: #507d8d;
+}
+.brand {
+	margin-top: 4rem;
+	color: aliceblue;
+	font-size: 2.5rem;
+}
+.brand:visited {
+	color: #b4bec9;
+}
+.cvrLogo {
+	margin-top: 2px;
+	height: 70px;
+	background-color: aliceblue;
+}
+.searchBar {
+	height: 30px;
+}
+.adminContent {
+	display: flex;
+}
+.leftMenuBar {
+	background-color: #b4bec9;
+	height: 100vh;
+	width: 200px;
+}
+.menuBar {
+	margin-top: 15px;
+	align-content: center;
+}
+.menuItem {
+	padding: 15px;
+	padding-left: 30px;
+	margin: 5px;
+	/* text-align: center; */
+}
+.menuItem a {
+	
+	text-decoration: none;
+	color: rgb(34, 34, 34);
+}
+.menuItem a:hover {
+	font-weight: 600;
+	color: black;
+}
+.table {
+	margin-top: 22px;
+	margin-left: 5px;
+	width: max-content;
+	/* text-align: center; */
+}
+.deleteBtn {
+	border: none;
+	color: rgb(116, 115, 115);
+	margin-left: 20px;
+}
+.deleteBtn:hover {
+	color: black;
+}
+#searchResults{
+	background-color: rgb(240, 245, 250);
+	position: absolute;
+	margin-top: 2rem;
+	width: 13.4rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.seacrchbardiv{
+	display: absolute;
+}
+.navForm{
+	position: relative;
+	right: 2rem;
+	flex-direction: column;
+}
+.tableValues{
+	text-align: center;
+	
+}
+th{
+	text-align: center;
+	padding: 15%;
+	border-left: 12px;
+}
+.editBtn{
+	border-radius: 4px;
+	text-align: center;
+}
+.editBtn:hover {
+	background-color: #b4bec9;
+	
+	/* color: rgb(17, 18, 17); */
+	
+	/* box-shadow: rgb(51, 4, 84) 1px 1px 1px 1px; */
+}
